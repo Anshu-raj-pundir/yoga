@@ -169,28 +169,89 @@ function Home() {
   </div>
 </section>
 
-
-<section>
-  <div>
+<section className="testimonial-section">
+  <div className="testimonial-container">
     <h2>Testimonial</h2>
     <h6>What people say about us</h6>
 
-
-    <div>
-      
-    {Test.map(stud => (
-
-        <div className='div1'>
-          <img src={stud.img} alt=""  />
+    <div className="testimonial-grid">
+      {Test.map((stud, index) => (
+        <div className="testimonial-card" key={index}>
+          <img src={stud.img} alt={stud.name} />
           <p>{stud.pera}</p>
           <h4>{stud.name}</h4>
           <h5>{stud.title}</h5>
         </div>
-    ))}
+      ))}
     </div>
-
   </div>
 </section>
+
+
+<section className="subscribe-section">
+  <div className="subscribe-text">
+    <h1>Subscribe to our newsletter</h1>
+    <p>Get updates for new classes and new products</p>
+  </div>
+
+  <div className="subscribe-form">
+    <input type="email" placeholder="Your Email Address" />
+    <button type="submit">Subscribe</button>
+  </div>
+</section>
+
+<section className="image-section">
+  <img src="https://img.freepik.com/free-photo/front-view-woman-doing-yoga-home_23-2148597060.jpg?t=st=1746109515~exp=1746113115~hmac=fef6b3c4b9de5e81df6598e0f8e6d467300efdd911e40f8aec8ea0fe41772ddc&w=1380" alt="Yoga practice" height={"700"} width={"1700"} />
+</section>
+
+<section className="footer">
+  <div className="footer-text">
+    <img src="https://www.creativefabrica.com/wp-content/uploads/2019/11/21/MEDITATION-YOGA-8.jpg" alt="" /><h3>YOKU</h3>
+    <p>Far far away, behind the word mountains, far from countries Vokalia and Consonantia, there live the blind texts. Separated they.</p>
+  </div>
+
+  <div className="quick-links">
+    <h3>Quick Links</h3>
+    <ul>
+      <li>Home</li>
+      <li>About Us</li>
+      <li>Classes</li>
+      <li>Pages</li>
+      <li>Blog</li>
+    </ul>
+  </div>
+
+  <div className="contact-links">
+    <ul>
+      <li>Become Instructor</li>
+      <li>Contact Us</li>
+      <li>Privacy Policy</li>
+      <li>Support Center</li>
+    </ul>
+  </div>
+
+  <div className="contact-info">
+    <h3>Contact Info</h3>
+    <div className="contact-item">
+      <i className="fas fa-map-marker-alt"></i>
+      <h5>1810 Kings Way, King Street, 5th Avenue, New York</h5>
+    </div>
+    <div className="contact-item">
+      <i className="fas fa-phone-alt"></i>
+      <h6>1800-2355-2356</h6>
+    </div>
+    <div className="contact-item">
+      <i className="fas fa-envelope"></i>
+      <h6>contact@yokuyoga.co</h6>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
 
 
     </section>
