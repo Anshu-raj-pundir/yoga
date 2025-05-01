@@ -4,6 +4,7 @@ import './home.css'
 import Type from './Type.json'
 import Course from './Course.json'
 import Instructor from './Instructor.json'
+import Test from './Test.json'
 
 function Home() {
   return (
@@ -126,9 +127,70 @@ function Home() {
 </section>
 
 
+<section class="featured-section">
+
+  <div class="featured-header">
+    <h2>We are featured in</h2>
+  </div>
+
+  <div class="featured-logos">
+    <img src="https://img.freepik.com/premium-vector/black-nature-creative-human-body-meditation-yoga-logo-white-background_1188140-1784.jpg" alt="Logo 1" />
+    <img src="https://img.freepik.com/premium-vector/black-white-logo-yoga-studio_1145966-1012.jpg" alt="Logo 2" />
+    <img src="https://img.freepik.com/free-vector/aesthetic-business-logo-template-creative-professional-design-vector_53876-136290.jpg?semt=ais_hybrid&w=740" alt="Logo 3" />
+    <img src="https://images.rawpixel.com/image_social_square/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjI4Ni1hZXctMDgwLWhlYWx0aC1sb2dvXzIuanBn.jpg" alt="Logo 4" />
+    <img src="https://matthatfieldart.com/wp-content/uploads/2019/11/mandela-yoga-logo-om-symbol-2.png" alt="Logo 5" />
+  </div>
+
+</section>
+
+<section class="inspired-section">
+  <div class="text-container">
+    <h2>Inspired Articles</h2>
+    <p>
+      Modern postural yoga consists largely but not exclusively of the practice of asanas. 
+      There were very few standing asanas before 1900. By 2012, there were at least 19 widespread styles.
+    </p>
+
+    <ul>
+      <li>Meditation</li>
+      <li>Anatomy</li>
+      <li>Yoga Poses</li>
+      <li>Yin Poses</li>
+      <li>Yoga Therapy</li>
+      <li>Remedies</li>
+      <li>Seasonal Tips</li>
+      <li>Recipes</li>
+
+    </ul>
+  </div>
+
+  <div class="inspired-image">
+    <img src="https://img.freepik.com/free-photo/woman-digital-disconnecting-home-by-doing-yoga_23-2150037473.jpg?t=st=1746066650~exp=1746070250~hmac=bbc923a3da1a429baddf460d24a07f2ada5a444ee4a2091a464ea03c06e07707&w=1380" alt="Inspired Yoga" />
+  </div>
+</section>
 
 
+<section>
+  <div>
+    <h2>Testimonial</h2>
+    <h6>What people say about us</h6>
 
+
+    <div>
+      
+    {Test.map(stud => (
+
+        <div className='div1'>
+          <img src={stud.img} alt=""  />
+          <p>{stud.pera}</p>
+          <h4>{stud.name}</h4>
+          <h5>{stud.title}</h5>
+        </div>
+    ))}
+    </div>
+
+  </div>
+</section>
 
 
     </section>
