@@ -201,8 +201,13 @@ function Home() {
 </section>
 
 <section className="image-section">
-  <img src="https://img.freepik.com/free-photo/front-view-woman-doing-yoga-home_23-2148597060.jpg?t=st=1746109515~exp=1746113115~hmac=fef6b3c4b9de5e81df6598e0f8e6d467300efdd911e40f8aec8ea0fe41772ddc&w=1380" alt="Yoga practice" height={"700"} width={"1700"} />
+  <img 
+    src="https://img.freepik.com/free-photo/front-view-woman-doing-yoga-home_23-2148597060.jpg?t=st=1746109515~exp=1746113115~hmac=fef6b3c4b9de5e81df6598e0f8e6d467300efdd911e40f8aec8ea0fe41772ddc&w=1380" 
+    alt="Yoga practice" 
+    className="responsive-image" height={"600"} width={"1700"}
+  />
 </section>
+
 
 <section className="footer">
   <div className="footer-text">

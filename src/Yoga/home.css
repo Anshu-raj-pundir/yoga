@@ -1029,6 +1029,16 @@ body {
   border-radius: 50px;
 }
 
+.image-section {
+  width: 100%;
+  overflow: hidden;
+}
+
+.responsive-image {
+  width: 100%;
+  display: block;
+}
+
 
 .footer {
   display: flex;
