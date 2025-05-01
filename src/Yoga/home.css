@@ -1,0 +1,559 @@
+/* Global Font & Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif; /* Modern sans-serif font */
+  line-height: 1.6;
+  background-color: #f5f5f5;
+}
+
+/* CSS for Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 50px; /* Increased padding for a larger section */
+  background: linear-gradient(135deg, rgba(118, 199, 183, 0.8), rgba(92, 185, 154, 0.8)), url('https://m.media-amazon.com/images/I/81zA2TfRoaL._AC_UF894,1000_QL80_.jpg') no-repeat center center; 
+  background-size: cover;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section:hover {
+  transform: scale(1.03); /* Slight zoom effect on hover */
+}
+
+.hero-text {
+  max-width: 50%;
+  color: white;
+  z-index: 1; /* Ensures the text appears above the background */
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+}
+
+.hero-text h1 {
+  font-size: 4rem; /* Increased size for the heading */
+  font-weight: 700;
+  color:rgb(228, 239, 238); /* Bright and vibrant orange */
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4); /* Shadow for better visibility */
+}
+
+.hero-text p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9); /* Light grayish-white */
+  margin-bottom: 40px;
+  line-height: 1.8;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for readability */
+}
+
+.browse-button {
+  background-color: #5cb99a;
+  color: white;
+  padding: 16px 35px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for button */
+  outline: none;
+}
+
+.browse-button:hover {
+  background-color: #4f9c84;
+  transform: scale(1.05); /* Button grows a little on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* More prominent shadow */
+}
+
+.browse-button:active {
+  transform: scale(0.98); /* Slight shrink when clicked */
+  background-color: #4b8f77;
+}
+
+/* Image Styling */
+.hero-image img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25); /* Shadow for the image */
+  transition: all 0.4s ease-in-out;
+}
+
+.hero-image img:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35); /* Larger shadow on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 2.8rem; /* Adjusted heading size for small screens */
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .browse-button {
+    padding: 12px 25px; /* Smaller button on mobile */
+    font-size: 1rem;
+  }
+
+  .hero-image img {
+    width: 100%;
+    max-height: 350px; /* Restrict the height of the image on smaller screens */
+  }
+}
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+  background-color: #f9f9f9;
+}
+
+.card {
+  background: linear-gradient(135deg, #fefcea, #f1da36); /* Attractive soft yellow gradient */
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  padding: 25px 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #2c3e50; /* Rich dark blue */
+}
+
+.card p {
+  font-size: 14px;
+  color: #4d4d4d; /* Medium gray */
+  line-height: 1.4;
+}
+
+.course-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  background-color: #f5f5f5;
+}
+
+.course-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 340px;             /* Increased width */
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.img-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: 450px;             /* Increased height */
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.img-wrapper:hover img {
+  transform: scale(1.05);
+}
+
+.hover-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.65); /* Slightly darker for better contrast */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px;
+}
+
+.img-wrapper:hover .hover-info {
+  opacity: 1;
+}
+
+.course-card h2 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #2c3e50;
+}
+
+.course-card p {
+  margin: 6px 0;
+  color: #555;
+}
+
+.header-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.header-section h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.header-section p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .header-section h1 {
+    font-size: 2rem;
+  }
+
+  .header-section p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-section h1 {
+    font-size: 1.6rem;
+  }
+
+  .header-section p {
+    font-size: 0.95rem;
+  }
+}
+
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #00bcd4; /* Cyan color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #0097a7; /* Darker cyan shade for hover */
+  transform: scale(1.05);
+}
+
+/* Section styling */
+.modern-yoga {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.modern-yoga:hover {
+  transform: translateY(-5px); /* Subtle lift on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow */
+}
+
+/* Image container styling */
+.image-container {
+  flex: 1; /* Ensures equal width */
+  min-width: 250px;
+  margin-right: 20px;
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover img {
+  opacity: 0.9; /* Slight opacity change on hover */
+}
+
+/* Text container styling */
+.text-container {
+  flex: 1;
+  min-width: 250px;
+  padding: 40px;
+  background: linear-gradient(135deg, #004d40, #009688); /* deep teal to aqua gradient */
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.text-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+h4 {
+  font-size: 20px;
+  color: #b2dfdb; /* soft aqua */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  color: #e0f2f1; /* slightly muted for readability */
+}
+
+
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+
+.button-container .btn {
+  background-color: #00bcd4; /* Cyan color */
+  padding: 12px 24px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-container .btn:hover {
+  background-color: #0097a7; /* Darker cyan shade for hover */
+  transform: scale(1.05);
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .modern-yoga {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .button-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-container .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
+
+/* Section Styling */
+.instructors-section {
+  padding: 60px 20px;
+  background: #fff;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+.instructors-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.instructors-header h1 {
+  font-size: 2.8rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.instructors-header p {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Container */
+.instructors-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* Individual Card */
+.instructor-card {
+  width: 260px;
+  background-color: #fafafa;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.instructor-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.instructor-card .image-wrapper {
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.instructor-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.instructor-card:hover img {
+  transform: scale(1.05);
+}
+
+.instructor-card h4 {
+  font-size: 1.2rem;
+  margin: 10px 0 5px;
+  color: #34495e;
+}
+
+.instructor-card h6 {
+  font-size: 1rem;
+  color: #95a5a6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .instructors-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+

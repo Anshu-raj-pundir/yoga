@@ -1,0 +1,37 @@
+[
+  {
+    "img":"https://img.freepik.com/premium-photo/fit-young-woman-doing-yoga-studio-sitting-lotus-position-keeping-hands-namaste-mudra_274689-45450.jpg?w=740",
+    "title":"Jane Smith",
+    "class":"2 Classes"
+  },
+  
+  {
+    "img":"https://img.freepik.com/premium-photo/smiling-meditating-young-woman_274689-44353.jpg?w=740",
+    "title":"Mildred Reed",
+    "class":"2 Classes"
+  },
+  
+  {
+    "img":"https://img.freepik.com/free-psd/view-woman-yoga-position_23-2151520470.jpg?t=st=1746064683~exp=1746068283~hmac=430a336c3cbb80573f8b4a138f92f5decb8a46897421df5673898c8ebc8eac91&w=740",
+    "title":"Madison Diaz",
+    "class":"1 Classes"
+  },
+  
+  {
+    "img":"https://img.freepik.com/premium-photo/girl-relaxed-pose-mat-with-namaste-welcome-gesture_1048944-16814809.jpg?w=740",
+    "title":"Brebda Robertson",
+    "class":"1 Classes"
+  },
+  
+  {
+    "img":"https://img.freepik.com/free-photo/portrait-young-lady-showing-namaste-gesture-blouse-looking-peaceful-front-view_176474-90587.jpg?t=st=1746064731~exp=1746068331~hmac=0a8edadab8e362728774c48aa6472b5b177966d01229e5617bbce0444005d7e5&w=1380",
+    "title":"Lori Mendoza",
+    "class":"1 Classes"
+  },
+  
+  {
+    "img":"https://img.freepik.com/premium-photo/pretty-young-active-sports-woman-doing-yoga-exercise-green-background-full-length_221436-11641.jpg?w=740",
+    "title":"Crystal Gibson",
+    "class":"1 Classes"
+  }
+]

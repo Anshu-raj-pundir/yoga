@@ -1,0 +1,69 @@
+ [
+  {
+    "img": "https://img.freepik.com/free-photo/woman-home-digital-detox-doing-house-activities_52683-104176.jpg",
+    "title": "Mildred Reed",
+    "sub_title": "Yamas and Niyamas",
+    "price": "Free",
+    "lessons": "7 Lessons",
+    "students":"85 Students Enrolled",
+    "yoga_type": "Pranayama Yoga"
+  },
+  {
+    "img": "https://img.freepik.com/premium-photo/brunette-fitness-woman-meditate-doing-yoga-indoors-home_182615-2611.jpg?w=740",
+    "title": "Liam Carter",
+    "sub_title":"Ashtanga Basics",
+    "price": "$20",
+    "lessons": "10 Lessons",
+    "students":"120 Students Enrolled",
+    "yoga_type":"Ashtanga Yoga"
+  },
+  {
+    "img": "https://img.freepik.com/premium-photo/attractive-young-fitness-woman-standing-tree-pose-doing-yoga-indoor-home_182615-2904.jpg?w=740",
+    "title": "Olivia Bennett",
+    "sub_title": "Intro to Hatha",
+    "price": "$15",
+    "lessons": "8 Lessons",
+    "students": "65 Students Enrolled",
+    "yoga_type": "Hatha Yoga"
+  },
+
+  {
+    "img": "https://img.freepik.com/free-photo/full-shot-happy-woman-floor_23-2148877046.jpg?t=st=1746024886~exp=1746028486~hmac=83cbff367f12f4f90bbbce5b10aa98c5553787819b7576e3d61a6a6cfc02e8a0&w=1380",
+    "title": "with Madison Diaz",
+    "sub_title": "The Smart Flow Yoga",
+    "price": "$59",
+    "lessons": "7 Lessons",
+    "students": "53 Students Enrolled",
+    "yoga_type": "Meditation, Vinyasa Yoga"
+  },
+
+  {
+    "img": "https://img.freepik.com/free-photo/adult-woman-practicing-yoga-home_52683-107801.jpg?t=st=1746024929~exp=1746028529~hmac=616d60ce8c1d21c33b3af3e54e600af224f8836fdc353fcbd2e839dca27db8f4&w=1380",
+    "title": "Jane Smith",
+    "sub_title": "Nine Days of Pranayam",
+    "price": "$47",
+    "lessons": "8 Lessons",
+    "students": "65 Students Enrolled",
+    "yoga_type": "Hatha Yoga"
+  },
+
+  {
+    "img": "https://img.freepik.com/free-photo/beautiful-young-woman-meditating-exercising-top-him_1150-15290.jpg?t=st=1746025006~exp=1746028606~hmac=d45ce10d40c79c2edc511754e7c567db96f1ee556a9f1e65b1e13d9fe019285a&w=1380",
+    "title": "with Lori Mendoza",
+    "sub_title": "Mastering Anxiety",
+    "price": "$39",
+    "lessons": "5 Lessons",
+    "students": "50 Students Enrolled",
+    "yoga_type": "Meditation, Paranayama"
+  },
+
+  {
+    "img": "https://img.freepik.com/free-photo/young-attractive-woman-padmasana-pose-studio-background_1163-4567.jpg?t=st=1746025068~exp=1746028668~hmac=ed44f232ce2b02697f2e6d4cb227879422ca55ec39745c7e3050655676f84732&w=1380",
+    "title": "with Crystal Gibson",
+    "sub_title": "Self Care Through Ayurveda",
+    "price": "$15",
+    "lessons": "5 Lessons",
+    "students": "52 Students Enrolled",
+    "yoga_type": "Pranayama"
+  }
+]

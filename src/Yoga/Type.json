@@ -1,0 +1,23 @@
+[
+  {
+    "img": "https://img.freepik.com/free-photo/woman-home-digital-detox-doing-house-activities_52683-104176.jpg?t=st=1746022481~exp=1746026081~hmac=14a98f4f0aa74dbac7d64e216168ad654b32e9071487b6c48f8cec0fd62ebe2e&w=740",
+    "title": "Mildred Reed",
+    "sub_title": "Yamas and Niyamas",
+    "price": "Free",
+    "lessons": "7 Lessons",
+    "students": "85 Students Enrolled",
+    "yoga_type": "Pranayama Yoga"
+  },  
+
+  {
+    "img":"https://cdn-icons-png.flaticon.com/512/2688/2688971.png",
+    "title":"Pro Instructors",
+    "sub_title":"Professional Yoga Instructors from around the world"
+  },
+
+  {
+    "img":"https://cdn-icons-png.flaticon.com/512/1210/1210282.png",
+    "title":"Quality Content",
+    "sub_title":"All Our Classes are Well Planned by Professional Yoga Instructors"
+  }
+]

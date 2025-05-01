@@ -1,0 +1,61 @@
+/* Navigation.css */
+
+.custom-navbar {
+  background: linear-gradient(to right, #f0f4f3, #d9f1e3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-logo {
+  border-radius: 50%;
+  border: 3px solid #76c7b7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Centered nav links with hover underline */
+.nav-links .nav-link {
+  position: relative;
+  margin: 0 12px;
+  font-weight: 500;
+  color: #333 !important;
+  transition: all 0.3s ease;
+}
+
+
+.nav-links .nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  height: 2px;
+  width: 0;
+  background-color: #76c7b7;
+  transition: width 0.3s ease;
+}
+
+.nav-links .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Custom button styles */
+.navbar .btn-outline-success {
+  border-radius: 25px;  /* Rounded edges */
+  padding: 10px 20px;    /* Add padding for larger button */
+  font-weight: bold;     /* Make button text bold */
+  transition: background-color 0.3s, color 0.3s;  /* Add smooth transition for hover effect */
+}
+
+.navbar .btn-outline-success:hover {
+  background-color: #76c7b7;  /* Change background color on hover */
+  color: white;               /* Text color on hover */
+}
+
+
+.nav1{
+  margin-left: 200px;
+  font-weight: bold;
+}
+
+.nav2{
+  margin-left: 70px;
+  font-weight: bold;
+}
