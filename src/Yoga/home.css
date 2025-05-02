@@ -609,19 +609,18 @@ p {
 
 @media (max-width: 600px) {
   .featured-logos {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
   }
 
   .featured-logos img {
-    width: 140px;
-    height: 140px;
-  }
-
-  .featured-header h2 {
-    font-size: 2rem;
+    width: 45%; /* Allows 2 images per row */
+    height: auto;
   }
 }
+
 
 /* Global Styles */
 body {
