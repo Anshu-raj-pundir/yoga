@@ -1027,6 +1027,8 @@ body {
 .image-section img{
   padding: 20px;
   border-radius: 50px;
+  padding: 30px;
+  height:700px;
 }
 
 .image-section {
