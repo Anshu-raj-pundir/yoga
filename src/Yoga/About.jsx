@@ -114,17 +114,17 @@ function About() {
 </section>
 
 
-<section className="subscribe-section">
-  <div className="subscribe-text">
-    <h1>Subscribe to our newsletter</h1>
-    <p>Get updates for new classes and new products</p>
-  </div>
+  <section className="subscribe-section">
+    <div className="subscribe-text">
+      <h1>Subscribe to our newsletter</h1>
+      <p>Get updates for new classes and new products</p>
+    </div>
 
-  <div className="subscribe-form">
-    <input type="email" placeholder="Your Email Address" />
-    <button type="submit">Subscribe</button>
-  </div>
-</section>
+    <div className="subscribe-form">
+      <input type="email" placeholder="Your Email Address" />
+      <button type="submit">Subscribe</button>
+    </div>
+  </section>
 
 
 <Footer/>

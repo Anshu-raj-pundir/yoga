@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './Yoga/Home'
 import About from './Yoga/About'
+import Class from './Yoga/Class'
+import Menu from './Yoga/Menu'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +13,9 @@ function App() {
   return (
     <>
       {/* <Home/> */}
-      <About/>
+      {/* <About/> */}
+      {/* <Class/> */}
+    <Menu/>
     </>
   )
 }

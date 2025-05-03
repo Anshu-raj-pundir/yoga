@@ -21,11 +21,11 @@ function Navigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto nav-links">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about">About Us</Nav.Link>
-            <Nav.Link href="#classes">Classes</Nav.Link>
-            <Nav.Link href="#pages">Pages</Nav.Link>
-            <Nav.Link href="#blog">Blog</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/about">About Us</Nav.Link>
+            <Nav.Link href="/class">Classes</Nav.Link>
+            <Nav.Link href="/">Pages</Nav.Link>
+            <Nav.Link href="/">Blog</Nav.Link>
           </Nav>
           {/* Add Button here */}
           <Button 

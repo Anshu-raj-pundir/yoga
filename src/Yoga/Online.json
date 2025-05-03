@@ -1,0 +1,82 @@
+[
+  {
+    "img":"https://c4.wallpaperflare.com/wallpaper/397/164/886/5bd03212a6924-wallpaper-preview.jpg",
+    "type":"Meditation, Pranayama",
+    "title":"Yoga for Beginners Course",
+    "price":"$69",
+    "lesson":"6 Lessons",
+    "student":"71 Students Enrolled"
+  },
+
+  {
+    "img":"https://thumbs.dreamstime.com/b/namaste-yoga-portrait-smile-woman-gym-health-wellness-exercise-pilates-zen-meditation-happy-namaste-yoga-272835058.jpg",
+    "type":"Pranayama, Vinyasa Yoga",
+    "title":"Yoga for Beginners Course",
+    "price":"$49",
+    "lesson":"7 Lesson",
+    "student":"85 Students Enrolled"
+  },
+
+  {
+    "img":"https://i0.wp.com/www.alkalinewellness.com/wp-content/uploads/2020/03/girl-with-yoga-mat.jpg?resize=1080%2C675&ssl=1",
+    "type":"Meditation, Vinyasa Yoga",
+    "title":"The Smart Flow Yoga",
+    "price":"$39",
+    "lesson":"6 Lessons",
+    "student":"53 Students Enrolled"
+  },
+
+  {
+    "img":"https://w0.peakpx.com/wallpaper/555/1014/HD-wallpaper-meditation-model-yoga-girl-women.jpg",
+    "type":"Pranayama, Vinyasa Yoga",
+    "title":"Nine days of Pranayama",
+    "price":"Free",
+    "lesson":"7 Lesson",
+    "student":"53 Students Enrolled"
+  },
+
+  {
+    "img":"https://img.freepik.com/premium-photo/young-woman-relaxes-yoga-pose-nature-park_109529-1363.jpg",
+    "type":"Meditation, Pranayama",
+    "title":"Mastering Anxiety",
+    "price":"$59",
+    "lesson":"7 Lesson",
+    "student":"50 Students Enrolled"
+  },
+
+  {
+    "img":"https://images.pexels.com/photos/6246646/pexels-photo-6246646.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type":"Pranayama",
+    "title":"Self Care Through Ayurveda",
+    "price":"$47",
+    "lesson":"6 Lessons",
+    "student":"52 Students Enrolled"
+  },
+
+  {
+    "img":"https://images.pexels.com/photos/8436763/pexels-photo-8436763.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type":"Meditation, Vinyasa Yoga",
+    "title":"Vinyasa Krama",
+    "price":"$29",
+    "lesson":"5 Lesson",
+    "student":"53 Students Enrolled"
+  },
+
+  {
+    "img":"https://www.shutterstock.com/shutterstock/videos/3679586597/thumb/1.jpg?ip=x480",
+    "type":"Vinyasa Yoga",
+    "title":"Yoga For Better Sleep",
+    "price":"$39",
+    "lesson":"5 Lesoon",
+    "student":"51 Students Enrolled"
+  },
+
+  {
+    "img":"https://static.vecteezy.com/system/resources/previews/016/345/605/non_2x/young-attractive-smiling-woman-practicing-yoga-sitting-in-half-lotus-exercise-ardha-padmasana-pose-working-out-wearing-sportswear-meditation-session-indoor-full-length-home-interior-photo.jpg",
+    "type":"Vinyasa Yoga",
+    "title":"Yoga For Better Sleep",
+    "price":"$39",
+    "lesson":"5 Lesoon",
+    "student":"51 Students Enrolled"
+  }
+]

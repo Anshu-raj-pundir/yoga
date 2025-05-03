@@ -1,0 +1,192 @@
+.aboutone-hero {
+  background: linear-gradient(to right, #e0f7fa, #dcedc8);
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.aboutone-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+@media (max-width: 768px) {
+  .aboutone-title {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutone-title {
+    font-size: 1.8rem;
+  }
+}
+
+
+/* Course Section Grid */
+.course-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Cards size */
+  gap: 32px; /* More space between cards */
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Card Container */
+.course-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.course-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* Image Styling */
+.img-wrapper {
+  width: 100%;
+  height: 400px; /* Adjust image height */
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+}
+
+.course-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Content Area */
+.course-content {
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Space between content inside the card */
+}
+
+.course-type {
+  font-size: 0.75rem;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.course-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.course-price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Meta Information */
+.course-meta {
+  margin-top: auto;
+  font-size: 0.85rem;
+  display: flex;
+  justify-content: space-between;
+  color: #666;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .course-section {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+  }
+}
+
+@media (max-width: 480px) {
+  .course-section {
+    grid-template-columns: 1fr; /* 1 card per row on very small screens */
+  }
+
+  .course-card {
+    border-radius: 8px;
+  }
+}
+
+
+
+.subscribe-section {
+  padding: 60px 20px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3f5f1; /* Light soft beige/green */
+}
+
+.subscribe-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #2e4a38; /* Keeping your darker text color for contrast */
+}
+
+.subscribe-text p {
+  font-size: 1.1rem;
+  color: #4f6658; /* Subtle green for the paragraph text */
+  margin-bottom: 30px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.subscribe-form input {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  outline: none;
+  width: 300px;
+  max-width: 80%;
+  background-color: #ffffff; /* White input box to contrast with background */
+  color: #333;
+}
+
+.subscribe-form button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  background-color: #00b894; /* Vibrant button color */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-form button:hover {
+  background-color: #019875; /* Darker green on hover */
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .subscribe-form {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .subscribe-form input,
+  .subscribe-form button {
+    width: 90%;
+    max-width: none;
+  }
+}
