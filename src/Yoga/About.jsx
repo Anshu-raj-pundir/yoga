@@ -15,25 +15,21 @@ function About() {
       <h1 className="aboutone-title">About Us</h1>
     </section>
 
-    <section className="abouttwo-container">
-      <div className="abouttwo-image-wrapper">
-        <img
-          src="https://media.istockphoto.com/id/1092303564/photo/child-pose-performed-by-six-diverse-females-view-from-above.jpg?s=612x612&w=0&k=20&c=D80cyUqgeTPIZRGS9pNMdXjjLWImk_J26kmcBVyZn34="
-          alt="Yoga posture demonstration"
-          className="abouttwo-image"
-        />
-      </div>
-      <div className="abouttwo-content">
-        <h3 className="abouttwo-subheading">About Our School____</h3>
-        <h1 className="abouttwo-heading">How We Became Yoku</h1>
-        <p className="abouttwo-paragraph">
-          Modern yoga consists of a range of techniques including asanas and meditation, derived from
-          the philosophies and teachings of traditional Hindu Yoga schools. Yoku blends ancient practices
-          with modern awareness, offering a grounded, healing journey for all levels of practitioners.
-        </p>
-        <button className="abouttwo-button">Meet Instructors</button>
-      </div>
-    </section>
+    <section class="about-section">
+  <div class="about-image">
+    <img src="https://c4.wallpaperflare.com/wallpaper/102/304/5/yoga-5k-jacqueline-fernandez-wallpaper-preview.jpg" alt="Yoga Pose" />
+  </div>
+
+  <div class="about-content">
+    <h5 class="section-subtitle">About Our School</h5>
+    <h3 class="section-title">How we become Yoku</h3>
+    <p class="section-description">
+      Modern yoga consists of a range of techniques including asanas (postures) and meditation derived from some of the philosophies, teachings and practices of the Yoga school, which is one of the six schools of traditional Hindu philosophies, and organised into a wide variety of schools and denominations. It has been described by Elizabeth de Michelis as having four types, namely: Modern Psychosomatic Yoga, as in The Yoga Institute.
+    </p>
+    <button class="cta-button">Meet Instructors</button>
+  </div>
+</section>
+
 
     <section className="faith-section">
 
