@@ -1,0 +1,60 @@
+.aboutone-hero {
+  background: linear-gradient(to right, #e0f7fa, #dcedc8);
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.aboutone-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+@media (max-width: 768px) {
+  .aboutone-title {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutone-title {
+    font-size: 1.8rem;
+  }
+}
+
+.team-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.team-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+.hover-overlay {
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.team-card:hover .hover-overlay {
+  opacity: 1;
+  pointer-events: auto;
+}

@@ -1,19 +1,19 @@
-import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import { Button } from 'react-bootstrap';
-import './navigation.css';
+import React from "react";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import { Button } from "react-bootstrap";
+import "./navigation.css";
 
 function Navigation() {
   return (
     <Navbar expand="lg" className="custom-navbar">
       <Container>
         <Navbar.Brand href="#home">
-          <img 
-            src="https://www.creativefabrica.com/wp-content/uploads/2019/11/21/MEDITATION-YOGA-8.jpg" 
-            alt="Logo" 
-            height="100" 
+          <img
+            src="https://www.creativefabrica.com/wp-content/uploads/2019/11/21/MEDITATION-YOGA-8.jpg"
+            alt="Logo"
+            height="100"
             width="100"
             className="custom-logo"
           />
@@ -24,16 +24,12 @@ function Navigation() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About Us</Nav.Link>
             <Nav.Link href="/class">Classes</Nav.Link>
-            <Nav.Link href="/">Pages</Nav.Link>
-            <Nav.Link href="/">Blog</Nav.Link>
+            <Nav.Link href="/team">Team</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
           {/* Add Button here */}
-          <Button 
-            variant="outline-success" 
-            className="ms-3" 
-            href="#contact"
-          >
-            Contact Us
+          <Button variant="outline-success" className="ms-3" href="#contact">
+            View Classes
           </Button>
         </Navbar.Collapse>
       </Container>
