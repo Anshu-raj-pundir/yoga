@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Button } from "react-bootstrap";
 import "./navigation.css";
+import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
@@ -21,12 +22,23 @@ function Navigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto nav-links">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/about">About Us</Nav.Link>
-            <Nav.Link href="/class">Classes</Nav.Link>
-            <Nav.Link href="/team">Team</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Link className="nav-link" to="/">
+              Home
+            </Link>
+            <Link className="nav-link" to="/about">
+              About Us
+            </Link>
+            <Link className="nav-link" to="/class">
+              Class
+            </Link>
+            <Link className="nav-link" to="/team">
+              Team
+            </Link>
+            <Link className="nav-link" to="/contact">
+              Contact
+            </Link>
           </Nav>
+
           {/* Add Button here */}
           <Button variant="outline-success" className="ms-3" href="#contact">
             View Classes
